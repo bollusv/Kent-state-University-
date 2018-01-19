@@ -1,0 +1,111 @@
+body,
+html {
+	height: 100%;
+	padding-top: 25px;
+	width: 100%; 
+	margin: 0; 
+}
+
+#map {
+	width: 100%;
+	height: 100%;
+	float: left;
+	z-index: 1;
+}
+
+#rightside {
+	width: 30%;
+	height: 100%;
+	position: fixed; 
+	background-color: snow;
+	left4500%;
+}
+.whole{
+	float:left;
+	width : 100%;
+	/*margin-left: 20px*/
+	/*margin-right: 20px;*/
+	font-family : monospace;
+	margin-top: 50px;
+}
+.half{
+	float:left;
+	height: inherit;
+	width: 48%;
+	/*margin-left: 20px;*/
+	/*background-color: #008080;*/
+	margin-left: 13px;
+	margin-right: 13px;
+
+}
+.source{
+	height: 92%;
+	overflow-y : scroll;
+}
+.destination{
+	height: 92%;
+	overflow-y: scroll;
+}
+.title{
+	color : white;
+	padding-left : 20px;
+	padding-top: 5px;
+	text-align: left;
+	font-size : 25px;
+	background-color: #03A9F4;
+}
+.content_container{
+	padding-top : 5px;
+	padding-bottom : 5px;
+	
+}
+.content{
+	font-size : 25px;
+	color : white;
+	padding-left: 20px;
+	text-align: left;
+}
+.number{
+	font-size: 25px;
+	color : white;
+	padding-right : 20px;
+	float: right;
+}
+.content_container:hover {
+	background-color: orange;
+}
+.chart_title{ 
+	font-size : 25px;
+	font-family: monospace;	
+	text-align : center;
+	margin :0  auto;
+	width : 60%;
+	color : white;
+	background-color: #03A9F4;
+}
+#half_title{
+	width: 100%;
+}
+ul{
+	list-style-type: none;
+}
+.left{
+	float:left;
+}
+.pie_menu{
+	font-size:20px;
+	color : white;
+}
+.pie_half{
+	background-color: #03A9F4;
+	width : 48%;
+	height : 35px;
+	padding-top: 4px;
+
+}
+.pie_half a{
+	color : white;
+}
+.bar_active {
+	background-color: orange;
+}
